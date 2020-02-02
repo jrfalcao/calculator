@@ -1,3 +1,22 @@
+:root {
+    --bg-botton: #f0f0f0;
+    --border-botton: solid 1px #888888;
+}
 .button{
+    font-size: 1.4em;
+    background-color: var(--bg-botton);
+    border: none;
+    border-right: var(--border-botton);
+    border-bottom: var(--border-botton);
+    outline: none;
+
+}
+.button-double{
+
+}
+.button-triple{
+
+}
+.button-operation{
     
 }

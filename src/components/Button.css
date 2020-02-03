@@ -11,12 +11,18 @@
     outline: none;
 
 }
-.button-double{
-
+.button:active{
+    background-color: #ccc;
 }
-.button-triple{
-
+.double{
+    grid-column: span 2;
 }
-.button-operation{
-    
+.triple{
+    grid-column: span 3;
+}
+.operation{
+    background-color: #fa8231;
+}
+.operation:active{
+    background-color: #fa8231cc;
 }
